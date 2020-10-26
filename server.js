@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); //import express from 'express'
 const { json } = require('express')
 
 const server = express();
@@ -171,5 +171,5 @@ server.put("/api/users/:id", (req, res) => {
 })
 
 
-const port = 5000;
+const port = 5000; //used to see api
 server.listen(port, () => console.log("Server running..."));
