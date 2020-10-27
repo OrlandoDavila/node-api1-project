@@ -2,7 +2,7 @@ const express = require('express'); //import express from 'express'
 const { json } = require('express')
 
 const server = express();
-const shortid = require('shortid');
+const shortid = require('shortid'); //npm i shortid
 
 let users = [
     {
